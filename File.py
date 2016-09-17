@@ -1,17 +1,15 @@
 file_name = input("Enter file name ")
 if '.txt' in file_name:
-    file = open(file_name,'r')
-    #print(file)
-    #file.close()
+    file = open(file_name)
     y = []
-    s=''
-    print(file.read())
-    for x in file.read():
-        #print (x.split(' '))
-        s.join(x)
-        y.append(x.split('.'))
-#    line = file.readline()
-#    print (line, type(line))
-    print(y, type(y), len(y))
-    print(s, type(s))
+    s = "abc"
+    #print(file.read())
+    for x in file.readlines():
+        s= s+x
+        #y.append(x.split(' '))
+        print("x:",s)
+    #print(y, type(y), len(y))
+    s.replace("\n","")
+    y.append(s.split('.'))
+    print(y,type(y))
     file.close()

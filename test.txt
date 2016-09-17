@@ -1,0 +1,11 @@
+It is my pleasure to present this B.E. Computer Engineering Syllabus.  The syllabus is a blend of concepts and
+advances using high end FOSS technologies.  One of the objectives of the this syllabus is to cultivate students
+for  using  FOSS  and  contributions  in  FOSS.  The  theory  subjects  are  based  on  the  pre-requisites  covered  in
+ rst year to third Year computer engineering.  16 electives are divided into four groups on recent technologies
+such as cloud computing, mobile computing, web applications and Business Analytic and Intelligence, Cyber
+Security are provided which shall be useful for student in their professional carrier.
+The laboratories for problem solving practices are based on utilization of state-of-the art FOSS software Tech-
+nologies used by the Industries.  The FOSS technologies are available with source code students can experiment
+the performance improvement and ideation to replace the existing implementation.  The Project can be done as
+conventional practices or as an entrepreneur project to give thrust on generating budding talent as entrepreneur
+to lead the industrial front of the nation worldwide.
