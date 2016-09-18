@@ -1,4 +1,6 @@
 import tkinter as tk
+from tkinter import filedialog
+#import tkFileDialog
 
 class Application(tk.Frame):
     def __init__(self, master=None):
@@ -17,7 +19,9 @@ class Application(tk.Frame):
         self.quit.pack(side="top")
 
     def say_hi(self):
-        print("hi there, everyone!")
+        demo = filedialog.askopenfilename(initialdir = "F:/python",title ="Choose file",filetype=[('Text files', '*.txt'), ('All files', '*')])#
+        print(demo)
+        #print("hi there, everyone!")
 
 root = tk.Tk()
 app = Application(master=root)
