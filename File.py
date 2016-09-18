@@ -48,8 +48,8 @@ def word_count(s):
     for x, y in open.items():
         print ("\033[1m",x," occure ", "\033[1m",y, "times.\n")
 
-file_name = input("Enter file name ")
-if '.txt' in file_name and   checkSize(file_name):
-    line(file_name)
-else:
-    print("file is not present or of size more than 2mb")
+#file_name = input("Enter file name ")
+#if '.txt' in file_name and   checkSize(file_name):
+#    line(file_name)
+#else:
+#    print("file is not present or of size more than 2mb")
