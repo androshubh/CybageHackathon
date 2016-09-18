@@ -15,18 +15,20 @@ def line(file_name):
     file.close()
     y = s.split('.  ')
     print ("Type of y ",type(y))
+    word_count(s)
+    opens = dict()
     for s in y:
-        if stmt in s:
-            count = open[stmt]
-            open[stmt] = count+1
+        s=s.replace('.','')
+        if s in opens:
+            count = opens[s]
+            opens[s] = count+1
         else:
-            open[stmt] = 1
+            opens[s] = 1
     print("%"*40)
-    for x, y in open.items():
-        print ("\033[1m",x," occure ", "\033[1m",y, "times.")
+    for x, y in opens.items():
+        print (x," --//occure//-- ",y, "times.\n")
 
     #print("Words in file :- ",len(s.split(" "))-len(z)-1)
-    word_count(s)
 
 def word_count(s):
     open = dict()
@@ -44,7 +46,7 @@ def word_count(s):
             open[word] = 1
     print("%"*40)
     for x, y in open.items():
-        print ("\033[1m",x," occure ", "\033[1m",y, "times.")
+        print ("\033[1m",x," occure ", "\033[1m",y, "times.\n")
 
 file_name = input("Enter file name ")
 if '.txt' in file_name and   checkSize(file_name):
